@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
 
             if (name.isEmpty()) {
                 // Show an error message if name is not entered
-                nameEditText.error = "Please enter your name!"
+                nameEditText.error = "Please enter your name"
             } else {
                 // Directly set the text without using strings.xml
                 displayTextView.text = "Hello, $name"
